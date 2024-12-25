@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371165846267",
+    "project_id": "processorder-f7a3c",
+    "storage_bucket": "processorder-f7a3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371165846267:android:c0036b6ef8f1d79cd1ae5e",
+        "android_client_info": {
+          "package_name": "com.example.process_order"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJnwx6RQqUphBpI8cDjvYifWCHme5GQf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
