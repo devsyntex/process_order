@@ -1,6 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:process_order/firebase_options.dart';
+import 'package:process_order/pages/createneworderscreen.dart';
+import 'package:process_order/pages/forgot_password.dart';
+import 'package:process_order/pages/home.dart';
 import 'package:process_order/pages/login.dart';
 import 'package:process_order/pages/signup.dart';
 
@@ -20,8 +23,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(),
-      home: Signup()
+      theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.deepOrangeAccent.shade200)),
+      home: Createneworderscreen()
     );
   }
 }
